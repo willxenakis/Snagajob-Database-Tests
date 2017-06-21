@@ -167,14 +167,8 @@ public class DatabaseActivity extends AppCompatActivity {
 
     public void buttonClicked(View view) {
         TextView text = (TextView) findViewById(R.id.textView1);
-        startActivity(new Intent(this, DatabaseActivity.class));
+        //startActivity(new Intent(this, DatabaseActivity.class));
 
-
-        if (text.getText() == "Hi") {
-            text.setText("Hello World");
-        } else {
-            text.setText("Hi");
-        }
     }
 
     public void boxChecked(View view) {
